@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+  }
+  .container{
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+   
+  }
+  .content{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    padding:2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    
+    
+      
+  }
+  .img{
+   width: 150px;
+    object-fit:contain;
+  
+  }
+
+  h3{
+    color: aliceblue;
+  }
