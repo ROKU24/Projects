@@ -48,6 +48,7 @@ input{
     border-radius: 20px;
     border: 1px solid gray;
     background-color: blue;
+    transition: background-color 0.3s;
     color: aliceblue;
     cursor: pointer;
 }
@@ -71,6 +72,7 @@ input{
     background: none;
     color: blue;
     cursor: pointer;
+    
 }
 
 .newDiv{
@@ -88,4 +90,8 @@ input{
     font-size: 14px;
     
     
+}
+
+.btnLogin:hover{
+    background-color: rgb(47, 96, 212);
 }
